@@ -22,7 +22,7 @@ public class PagosServiceServiceLocator extends org.apache.axis.client.Service i
     }
 
     // Use to get a proxy class for PagosServicePort
-    private java.lang.String PagosServicePort_address = "http://localhost:7070/w1-soap-svr/PagosServiceService";
+    private java.lang.String PagosServicePort_address = "http://35.185.30.69:7070/w1-soap-svr/PagosServiceService";
 
     public java.lang.String getPagosServicePortAddress() {
         return PagosServicePort_address;
