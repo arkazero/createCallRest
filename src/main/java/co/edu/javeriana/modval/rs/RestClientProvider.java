@@ -11,26 +11,6 @@ import com.sun.jersey.spi.container.ContainerResponse;
 
 public class RestClientProvider {
 
-	/*public static void main(String[] args) {
-
-		ClientConfig clientConfig = new DefaultClientConfig();
-		clientConfig.getFeatures().put(JSONConfiguration.FEATURE_POJO_MAPPING, Boolean.TRUE);
-
-		Client client = Client.create(clientConfig);
-
-		WebResource webResource = client.resource("http://localhost:8888/servicios/pagos/v1/payments/999");
-
-		Invoice inv = new Invoice();
-		inv.setIdFactura("999");
-		inv.setValorFactura(9999.99);
-
-		ClientResponse response = webResource.type("application/json").post(ClientResponse.class, inv);
-
-		System.out.println("Esta es la respuesta: " + response.getEntity(ResponseInvoice.class).getMensaje());
-		System.out.println("Esta es la respuesta: " + response.getStatusInfo());
-
-	}*/
-
 	public Double consultarFactura(String numfactura) {
 		System.out.println("Consultar Factura REST");
 		Double valorTotal = 0.0;
@@ -53,6 +33,7 @@ public class RestClientProvider {
 	
 
 	public String pagarFactura(String referenciaFactura, Double valorAPagar) {
+		System.out.println("Entrando a pagar por rest");
 		String mensajeResponse = null;
 		
 		ClientConfig clientConfig = new DefaultClientConfig();

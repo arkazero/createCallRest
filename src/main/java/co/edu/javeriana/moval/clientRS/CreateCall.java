@@ -42,13 +42,14 @@ public class CreateCall {
 	public String pagar(@PathParam("numfactura") String referencia, @PathParam("tipo") Integer tipo, Invoice invoice){
 		
 		String mensaje = null;
-		System.out.println("Este es el valor en Invoice :"+invoice.getIdFactura());
 		if( tipo == 1 ){
+			System.out.println("Entrando a pagar por soap");
 			ClientSoapProvider cliSoap = new ClientSoapProvider();
-			
+			System.out.println("Entrando a pagar por soap 2");
 			mensaje = cliSoap.pagarFactura(invoice.getIdFactura(), invoice.getValorFactura());
 			
 		}else{
+			System.out.println("Entrando a pagar por rest");
 			RestClientProvider cliRest = new RestClientProvider();
 			
 			mensaje = cliRest.pagarFactura(invoice.getIdFactura(), invoice.getValorFactura());

@@ -42,7 +42,6 @@ public class ClientSoapProvider {
 		
 		pagoFactura.setReferenciaFactura(refFactura);
 		pagoFactura.setTotalPagar(valorAPagar);
-		
 		PagosServiceServiceLocator locator = new PagosServiceServiceLocator();
 		
 		try {
