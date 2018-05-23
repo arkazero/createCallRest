@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java/co/edu/javeriana/aes/modval/pagos/boundary/PagosServicePortBindingStub.java=UTF-8
+encoding//src/main/java/co/edu/javeriana/aes/modval/pagos/boundary/PagosServiceService.java=UTF-8
+encoding//src/main/java/co/edu/javeriana/aes/modval/pagos/boundary/PagosServiceServiceLocator.java=UTF-8
+encoding//src/main/java/co/servicios/www/pagos/schemas/Pago.java=UTF-8
+encoding//src/main/java/co/servicios/www/pagos/schemas/ReferenciaFactura.java=UTF-8
+encoding//src/main/java/co/servicios/www/pagos/schemas/Resultado.java=UTF-8
+encoding//src/main/java/co/servicios/www/pagos/schemas/ResultadoConsulta.java=UTF-8
+encoding//src/main/java/co/servicios/www/pagos/service/PagosInerface.java=UTF-8

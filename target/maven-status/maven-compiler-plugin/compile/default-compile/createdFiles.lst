@@ -1,0 +1,15 @@
+co\servicios\www\pagos\service\PagosInerface.class
+co\edu\javeriana\moval\clientRS\CreateCall.class
+co\edu\javeriana\modval\rs\ResponseInvoice.class
+co\servicios\www\pagos\schemas\Resultado.class
+co\servicios\www\pagos\service\PagosInerfaceProxy.class
+co\edu\javeriana\moval\ws\ClientSoapClient.class
+co\servicios\www\pagos\schemas\ResultadoConsulta.class
+co\edu\javeriana\aes\modval\pagos\boundary\PagosServiceServiceLocator.class
+co\servicios\www\pagos\schemas\Pago.class
+co\edu\javeriana\moval\ws\ClientSoapProvider.class
+co\edu\javeriana\aes\modval\pagos\boundary\PagosServicePortBindingStub.class
+co\edu\javeriana\modval\rs\Invoice.class
+co\edu\javeriana\modval\rs\RestClientProvider.class
+co\servicios\www\pagos\schemas\ReferenciaFactura.class
+co\edu\javeriana\aes\modval\pagos\boundary\PagosServiceService.class
