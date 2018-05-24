@@ -1,0 +1,51 @@
+#%RAML 1.0
+title: callProvider
+version: v1
+mediaType: application/json
+baseUri: http://api.samplehost.com
+types:
+
+  totalValue:
+    properties:
+      type: string
+
+  urlProvider:
+    properties:
+      type:  string
+
+  query:
+    properties:
+      type: string
+
+  typeServices:
+    enum: [soap, rest]
+
+  Invoice:
+    type: object
+    properties:
+      url: string
+      data: string
+      typeService: boolean
+
+
+/callProvider/{Invoice}:
+  description: Servicio que realiza el llamado a las capacidades de los proveedores
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            type: totalValue
+  post:
+    responses:
+      200:
+        body:
+          application/json:
+            type: string
+
+  delete:
+    responses:
+      200:
+        body:
+          application/xml:
+            type: string
